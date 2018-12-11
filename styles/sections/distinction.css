@@ -1,0 +1,30 @@
+.distinction {
+display: flex;
+
+flex-flow: column nowrap;
+align-items: center;
+}
+.distinction__heading-bg {
+  position: absolute;
+  z-index: -1;
+  right: 0%;
+  left: 0;
+
+  width: 323px;
+  margin: 0 auto;
+
+  transform: rotate(-159deg);
+}
+.distinction h1 {
+margin: 60px 0;
+
+color: #f6c000;
+
+font-family: 'Roboto Slab',serif;
+font-size: 36px;
+font-style: normal;
+}
+
+@media (min-width: 768px) {
+
+}
